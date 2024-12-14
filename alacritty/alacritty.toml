@@ -1,0 +1,23 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 5
+padding.y = 5
+
+decorations = "None"
+dynamic_padding = false
+
+opacity = 0.8
+blur = true
+
+[font]
+normal.family = "Iosevka Nerd Font"
+
+size = 14
+
+# [shell]
+# program = "tmux"
+# args = [ "-l", "-c", "tmux attach || tmux" ]
